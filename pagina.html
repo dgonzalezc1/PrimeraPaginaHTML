@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Daniela González's Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+  <!--Header-->
+  <header style="text-align: center;padding: 80px;">
+    <div style="float: left;">
+      <h1 style="font-family:Georgia">Daniela González</h1>
+      <p style="font-family:Verdana">Mechanical Engineering and Computer Science</p>
+    </div>
+    <div><img src="persona.jpeg" alt="Personal Photo" style="width: 20%;"></div>
+  </header>
+  <!--Navbar-->
+  <div class="navbar" style="background-color: #333; padding: 20px; font-family:Verdana;">
+    <a href="#Welcome" style="float: left; display: block; color: white; text-align: center; text-decoration: none; padding-left: 10px; padding-right: 10px;">Welcome</a>
+    <a href="#Aboutme" style="float: left; display: block; color: white; text-align: center; text-decoration: none; padding-right: 10px;" >About Me</a>
+    <a href="#Studies" style="float: left; display: block; color: white; text-align: center; text-decoration: none; padding-right: 10px;">Studies</a>
+    <a href="#Interests" style="float: left; display: block; color: white; text-align: center; text-decoration: none; padding-right: 10px;">Interests</a>
+    <a href="#Contact" class="right" style="float: right; display: block; color: white; text-align: center; text-decoration: none; padding-right: 10px;">Contact</a>
+  </div>
+  <!--Main-->
+  <div class="main">
+    <section>
+      <h2 style="font-family:Georgia" id="Welcome">Welcome</h2>
+      <p style="font-family:Verdana">I'm a multi-cultural and multi-lingual senior student of Mechanical Engineering and Computer Science seeking to design efficient and innovative solutions. I am very passionate about working with multi-disciplinary teams in projects involving engineering and many other sectors like economics, environment and social development. I have led successful teams with participants from different backgrounds. </p>
+    </section>
+    <section>
+      <h2 style="font-family:Georgia" id="Aboutme">About Me</h2>
+      <table style="border: 1px solid #333;">
+        <tbody>
+          <tr>
+            <td style="font-weight: bold; background-color: lightgray; border: 1px solid #333;">Age</td>
+            <td style="border: 1px solid #333;">22</td> 
+          </tr>
+          <tr>
+            <td style="font-weight: bold; background-color: lightgray; border: 1px solid #333;">Nationality</td>
+            <td style="border: 1px solid #333;">Colombian & Spanish</td> 
+          </tr>
+          <tr>
+            <td style="font-weight: bold; background-color: lightgray; border: 1px solid #333;">Languages</td>
+            <td style="border: 1px solid #333;">Spanish, French, English</td> 
+          </tr>
+          <tr>
+            <td style="font-weight: bold; background-color: lightgray; border: 1px solid #333;">Residence</td>
+            <td style="border: 1px solid #333;">Bogotá, Colombia</td> 
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2 style="font-family:Georgia" id="Studies">Studies</h2>
+      <ul>
+        <li>Engineering Iintern & Junior Teaching Assistant</li>
+        <li>Mechanical Engineering</li>
+        <li>Computer Science</li>
+        <li>Design Minor</li>
+        <li>Aerospace Engineering Course</li>
+        <li>French International Baccalaureat</li>
+      </ul>
+    </section>
+    <section>
+      <h2 style="font-family:Georgia" id="Interests">Interests</h2>
+      <iframe src="https://www.youtube.com/embed/wtJPe1ksS6E"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/qp0HIF3SfI4"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Z-7TrJp4Wk0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+      <h2 style="font-family:Georgia" id="Contact">Contact</h2>
+      <div class="container" style="padding: 10px;" >
+        <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." style="resize: vertical; width: 70%">
+          <br><br>
+          <label for="lname">Last Name</label>
+          <br>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="resize: vertical; width: 70% ">
+          <br><br>
+          <label for="lname">Email</label>
+          <br>
+          <input type="text" id="email" name="email" placeholder="Your email.." style="resize: vertical; width: 70% "> 
+          <br><br>
+          <label for="subject">Subject</label>
+          <br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 70%"></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+          <br><br>
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer style="background-color: #333; color:white; justify-content: center; text-align:center;">
+    <div class="social" style="justify-content: space-around; display:inline-block; font-size: 24px;">
+      <a href="https://www.instagram.com/danielagonzalez.co/"><i class="icon ion-social-instagram" style="color: white;"></i></a>
+      <a href="https://twitter.com/dgonzalezcuervo"><i class="icon ion-social-twitter" style="color: white;"></i></a>
+      <a href="https://www.linkedin.com/in/d-gonzalezc/"><i class="icon ion-social-linkedin" style="color: white;"></i></a>
+    </div>
+    <p class="copyright" style="font-family:Verdana; font-size: small;">Daniela González © 2021</p>
+</footer>
+</body>
+</html>
